@@ -1,5 +1,7 @@
 # Tyler Tucker Portfolio/Resume
 
+### &#x1F6A7; Under Construction &#x1F6A7;
+
 My resume and portfolio, containing my education, work experience, skills, and projects I've done!
 
 ### Quick Links
