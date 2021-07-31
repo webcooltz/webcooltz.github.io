@@ -1,0 +1,74 @@
+body {
+    padding: 1em;
+}
+
+main div{
+    padding: 0.5em;
+}
+
+/* nav {
+    
+} */
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 0.5em;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul a {
+    color: #0052CC;
+}
+
+nav ul a:hover {
+    color: black;
+}
+
+/* a:active {
+    color: black;
+} */
+
+/* nav ul a:visited {
+    color: #0052CC;
+} */
+
+/* a {
+    color: white;
+} */
+
+/* --------------------------- colors --------------------- */
+
+.bg-jira-blue {
+    background-color: #0052CC;
+}
+
+.bg-jira-dark-blue {
+    background-color: #172B4D;
+}
+
+.bg-jira-orange {
+    background-color: #FF5630;
+}
+
+.bg-jira-yellow {
+    background-color: #FFAB00;
+}
+
+.bg-jira-green {
+    background-color: #36B37E;
+}
+
+.bg-jira-teal {
+    background-color: #00B8D9;
+}
+
+.bg-jira-purple {
+    background-color: #6554C0;
+}

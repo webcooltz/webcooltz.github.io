@@ -1,62 +1,96 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <!-- usability -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--link rel="icon" href="" /-->
+    <head>
+        <!-- meta tags-->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript, developer, android, mobile, java, javascript">
+        <meta name="description" content="My portfolio. By Tyler.">
+        <meta name="author" content="@tucker-tyler">
 
-    <title>Tyler Tucker Resume</title>
+        <!-- robo-stopper -->
+        <meta name="robots" content="noindex">
+        <meta name="googlebot" content="noindex">
 
-    <!-- meta tags for SEO and social sharing -->
-    <meta
-      name="description"
-      content="A resume for Tyler Tucker, software developer"
-    />
-    <meta name="author" content="Tyler Tucker" />
-    <!--     <meta name="robots" content="index,follow" /> -->
-    <meta property="url" content="https://codingtyler.glitch.me/" />
+        <!--meta http-equiv="refresh" content="30"-->
 
-    <!-- style sheets -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- page wrapper -->
-    <div class="page-div w3-card-2">
-      <header id="header"></header>
-      <main>
-        <!-- resume div -->
-        <div class="resume-div">
-          <!-- education section -->
-          <div class="resume-section w3-card-2" id="edu-section"></div>
-          <hr />
-          <!-- work section -->
-          <div class="resume-section w3-card-2" id="work-section"></div>
-          <hr />
-          <!-- skills section -->
-          <div class="resume-section w3-card-2" id="skills-section"></div>
-          <hr />
-          <!-- project section -->
-          <div class="resume-section w3-card-2" id="proj-section"></div>
-        </div>
-      </main>
-      <footer id="footer"></footer>
+        <!-- mobile tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- style links -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/49155fa2bd.js" crossorigin="anonymous"></script>
+
+        <title>tyler</title>
+    </head>
+    <body class="bg-light">
+        <div class="body-div">
+        <header>
+            <h1>Tyler</h1>
+            <div class="dropdown-menu">
+                <h6 class="dropdown-header">Dropdown header</h6>
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+              </nav>
+              <hr>
+        </header>
+        <main>
+            <div class="container p-3 my-3 bg-light text-black">
+                
+            <h2>Welcome</h2>
+                
+                <div class="row">
+                  <div class="col-sm-4 bg-jira-blue text-white">
+                    <h3>About/Resume </h3>
+                    <p>
+                        Software/Android developer, graduate in information technology. Passionate about
+                        technology and saving the world.
+                    </p>
+                    <p>
+                        Learn about me and why I'm a good fit.
+                    </p>
+                    <a href="about.html" title="about page" class="btn btn-primary">Learn More</a>
+                  </div>
+                  <div class="col-sm-4 bg-jira-yellow">
+                    <h3>Projects</h3>
+                    <p>
+                        See the projects I've completed beyond the classroom.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="" class="link-primary">Randomizer</a>
+                            </li>
+                            <li>
+                                <a href="" class="link-primary">Random-Games</a>
+                            </li>
+                        </ul>
+                    </p>
+                    <a href="projects.html" title="project page" class="btn btn-warning">Check them out</a>
+                  </div>
+                  <div class="col-sm-4 bg-jira-green">
+                    <h3>Contact</h3>        
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                    <a href="contact.html" title="contact page" class="btn btn-success">Contact me</a>
+                  </div>
+                </div>
+              </div>
+        </main>
+        <footer>
+            <hr>
+            &copy; 2021 <i class="fab fa-github"> </i><a href="https://github.com/tucker-tyler" target="_blank">@tucker-tyler</a>
+        </footer>
     </div>
-  </body>
-  <!-- script CDNs -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- scripts -->
-  <script src="/scripts/zoom.js"></script>
-  <script src="/scripts/back-to-top.js"></script>
-  <script src="/scripts/accordion.js"></script>
-
-  <script src="/scripts/modules.js"></script>
+    </body>
 </html>
+
