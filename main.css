@@ -72,3 +72,8 @@ nav ul a:hover {
 .bg-jira-purple {
     background-color: #6554C0;
 }
+
+.about-img {
+    width: 30%;
+    height: 30%;
+}
