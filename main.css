@@ -77,3 +77,16 @@ nav ul a:hover {
     width: 30%;
     height: 30%;
 }
+
+.module-title {
+    text-align: center;
+}
+
+.module-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+.module-list li {
+    padding-bottom: 0.5em;
+}
