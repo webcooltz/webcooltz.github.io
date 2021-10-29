@@ -1,5 +1,18 @@
 body {
     padding: 1em;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
 
 main div{
