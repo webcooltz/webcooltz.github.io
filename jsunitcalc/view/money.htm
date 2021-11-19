@@ -1,0 +1,23 @@
+<!-- currency box -->
+
+<div class="w3-container w3-green conversion-box">
+<!-- dollars to other -->
+  <h3><u>Dollars to Other</u></h3>
+    <span class="highlight">{{ equation }}</span>
+<br><br>
+      Dollars: <input type="text" ng-model="dollars"><br><br>
+        Euros: <p>{{dollars * 0.85 | number:2}}</p>
+          Pounds: <p>{{dollars * 0.77 | number:2}}</p>
+            Pesos (Mexico): <p>{{dollars * 21.39 | number:2}}</p>
+              Dollars (Canada): <p>{{dollars * 1.32 | number:2}}</p>
+<hr>
+  
+<!-- euros to other -->
+  <h3><u>Euros to Other</u></h3>
+    <span class="highlight">{{ equation2 }}</span><br><br>
+      Euros: <input type="text" ng-model="euros"><br><br>
+        Dollars: <p>{{euros * 1.18 | number:2}}</p>
+          Pounds: <p>{{euros * 0.91 | number:2}}</p>
+            Pesos (Mexico): <p>{{euros * 25.17 | number:2}}</p>
+              Dollars (Canada): <p>{{euros * 1.55 | number:2}}</p>
+</div>

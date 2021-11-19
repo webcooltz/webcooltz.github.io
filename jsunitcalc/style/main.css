@@ -1,0 +1,285 @@
+/*------------------Copyright 2020 Tyler Tucker-------------------*/
+
+/*---------------imports----------*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/*----------different device sizes------------*/
+@media screen and (max-width: 480px) {
+/*   .buttonBox {
+    flex-direction: column;
+  } */
+}
+
+@media screen and (max-width: 600px){
+    
+}
+
+/*------------------Body, main, font, links-------------------*/
+
+body {
+    background-color: #FBFBFB;
+    text-align: center;
+/*     justify-content: center; */
+    font-family: 'Source Code Pro', monospace;
+/*     align-content: center; */
+}
+
+footer a { 
+    text-decoration: none; 
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+a:hover { 
+     color: #333333;
+}
+
+main {
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#weightmain {
+    background-color: white;
+}
+
+#weighttitle {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+footer a {
+}
+
+footer a:hover {
+}
+
+.thankslink {
+  opacity: .5;
+}
+
+.thankslink:hover {
+  opacity: 1;
+}
+
+footer {
+    padding: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.fbicon:hover {
+    background-color: blue;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+.instaicon:hover {
+    background-color: orange;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+.linkedicon:hover {
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+.github-icon:hover {
+    background-color: purple;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+.highlight {
+    background-color: yellow;
+    color: black;
+}
+
+/*-----------------------Lists and Menus------------------*/
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    color: lightblue;
+}
+
+li a {
+    margin: .5em;
+}
+
+li a:hover {
+}
+
+li a:active {
+}
+
+/*-----------------------Divs and Paragraphs------------------*/
+
+.page-container {
+    margin:16px!important;
+    max-width: none;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+}
+
+.card-8{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+    background-color: white;
+}
+
+.conversion-box {
+    border: solid black;
+/*     max-width: 800px; */
+    margin: 1em;
+/*     background-color:; */
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+/*   display: flex;
+    flex-wrap: wrap;
+  flex-direction: column; */
+}
+
+.conversion-box p {
+    margin: 1em;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#backbtn {
+    text-align: left;
+    margin: .5em;
+    padding: .5em;
+}
+
+#homebtn {
+    text-align: right;
+    margin: .5em;
+    padding: .5em;
+}
+
+nav li {
+	flex: 1 0 8em;
+}
+
+nav li a {
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+nav li a:active {
+    background-color: white;
+    color: grey;
+}
+
+nav li a:hover:not(.active) {
+    color: lightgrey;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+/*
+ul {
+    display: flex;
+    width: 90%;
+    flex-flow: row wrap;
+    background-color: white;
+    border: solid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li a {
+    display: block;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+   align-content: center;
+}
+
+li a, .dropbtn {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

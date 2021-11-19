@@ -1,0 +1,16 @@
+#to-do#
+
+internet naming conventions
+-I think I got them all now. testApp was the one I found and corrected.
+
+formatting
+-I formatted the view files and added comments
+
+validation
+-I validated all of the site pages with HTML and CSS
+
+pug
+-Include pug or another framework?
+
+SCSS
+-Try to incorporate this?

@@ -1,0 +1,46 @@
+<!-- centimeters to inches box -->
+<div class="w3-container w3-yellow conversion-box">
+  <h3><u>Inches to Centimeters</u></h3>
+    <span class="highlight">{{ equation }}</span>
+<br><br>
+      Inches: <input type="text" ng-model="inches"><br><br>
+      Inches to Cm: <h3>{{inches * 2.54 | number:2}}</h3>
+<hr>
+  <h3><u>Centimeters to Inches</u></h3>
+    <span class="highlight">{{ equation2 }}</span><br><br>
+      Centimeters: <input type="text" ng-model="centimeters"/>
+<br/><br/>
+      Cm to Inches: <h3>{{centimeters * 0.393701 | number:2}}</h3>
+</div>
+
+<!-- feet to meters box -->
+<div class="w3-container w3-yellow conversion-box">
+  <h3><u>Feet to Meters</u></h3>
+    <span class="highlight">{{ metersequation }}</span>
+<br><br>
+      Feet: <input type="text" ng-model="feet">
+<br><br>
+      Feet to Meters: <h3>{{feet * 0.3048 | number:2}}</h3>
+<hr>
+  <h3><u>Meters to Feet</u></h3>
+    <span class="highlight">{{ feetequation }}</span>
+<br><br>
+      Meters: <input type="text" ng-model="meters"><br><br>
+      Meters to Feet: <h3>{{meters * 3.28084 | number:2}}</h3>
+</div>
+
+<!-- miles to kilometers box-->
+<div class="w3-container w3-yellow conversion-box">
+  <h3><u>Miles to Km</u></h3>
+    <span class="highlight">{{ kmToMiles }}</span>
+<br><br>
+      Miles: <input type="text" ng-model="miles">
+<br><br>
+      Miles to Km: <h3>{{miles * 1.60934 | number:2}}</h3>
+<hr>
+  <h3><u>Km to Miles</u></h3>
+    <span class="highlight">{{ milesToKm }}</span>
+<br><br>
+      Kilometers: <input type="text" ng-model="km"><br><br>
+      Km to Miles: <h3>{{km * 0.621371 | number:2}}</h3>
+</div>

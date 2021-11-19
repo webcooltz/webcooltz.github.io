@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Calc.js</title>
+    <!--Meta Data-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--mobile-sized-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tyler Tucker, tucker-tyler, jsunitcalc, unitcalc. unit calculator, js, angular, jquery, javascript"
+    />
+    <meta
+      name="keywords"
+      content="BYUI, CIT230, CIT, frontend web development, tyler tucker, tydye design, javascript calculator, github, unit converter, unit calculator"
+    />
+    <meta name="author" content="Tyler Tucker, TyDyeDesign" />
+
+    <!--Mobile App Tags-->
+    <!--capable for mobile web app-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!--user can't resize the app-->
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <!--image as the app icon-->
+    <link
+      rel="apple-touch-startup-image"
+      href="https://cdn.glitch.com/176a6015-0679-4b17-bf40-50eb23e1b7f2%2Fcalculator--v2.png?v=1605911478467"
+    />
+    <!--shortcut icon-->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.com/176a6015-0679-4b17-bf40-50eb23e1b7f2%2Fcalculator--v2.png?v=1605911478467"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.com/176a6015-0679-4b17-bf40-50eb23e1b7f2%2Fcalculator--v2.png?v=1605911478467"
+    />
+
+    <!--Stylesheets, CDNs, Script Tags-->
+    <link rel="stylesheet" type="text/css" href="/jsunitcalc/style/main.css" />
+    <!--w3.css library-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!--emoji.css library-->
+    <link href="style/emoji.css" rel="stylesheet" />
+    <!--font-awesome libray-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--angular.js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!--angular-route-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.2/angular-route.js"
+      integrity="sha512-C92rntF0G0YH9kHzQlpux7ADvyKgyUwBqusewsHs/0ibOTNuHxFyVqDkI0BIcLGyP76fxgLOpMOLO6kmHCS/xA=="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="card-8">
+        <header>
+          <div id="header-id"></div>
+        </header>
+
+        <!--ng-app is the app container-->
+        <main data-ng-app="route-app">
+          <div id="conversion-box">
+            
+            <p><a href="#/!">Home</a></p>
+
+            <!--div to hold the button divs-->
+            <div class="button-box">
+              <!--temperature button div-->
+              <div id="temp-button">
+                <a href="#!temperature" class="w3-button w3-red"
+                  ><h3>Temperature<br /><i class="fa fa-thermometer"></i></h3>
+                </a>
+              </div>
+
+              <div id="weight-button">
+                <a href="#!weight" class="w3-button w3-blue">
+                  <h3>
+                    Weight<br /><i
+                      class="fa fa-balance-scale"
+                      aria-hidden="true"
+                    ></i>
+                  </h3>
+                </a>
+              </div>
+
+              <div id="dist-button">
+                <a href="#!distance" class="w3-button w3-yellow">
+                  <h3>
+                    Distance<br /><i class="fa fa-road" aria-hidden="true"></i>
+                  </h3>
+                </a>
+              </div>
+
+              <div id="money-button">
+                <a href="#!money" class="w3-button w3-green">
+                  <h3>
+                    Money<br /><i class="fa fa-money" aria-hidden="true"></i>
+                  </h3>
+                </a>
+              </div>
+            </div>
+
+            <div data-ng-view></div>
+          </div>
+        </main>
+        <footer>
+          <div id="footer-id"></div>
+        </footer>
+      </div>
+    </div>
+    <script src="/jsunitcalc/scripts/footer.js"></script>
+    <script src="/jsunitcalc/scripts/header.js"></script>
+    <script src="/jsunitcalc/scripts/route-app.js"></script>
+  </body>
+</html>

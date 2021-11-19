@@ -1,0 +1,31 @@
+<!-- kilogram to pound box -->
+<div class="w3-container w3-blue conversion-box">
+  <h3><u>Pounds to Kilograms</u></h3>
+    <span class="highlight">{{ equation }}</span>
+<br>
+<br>
+      Pounds: <input type="text" ng-model="pounds"><br><br>
+<hr>
+  <h3><u>Kilograms to Pounds</u></h3>
+    <span class="highlight">{{ equation2 }}</span><br><br>
+      Kilograms: <input type="text" ng-model="kilograms"><br><br>
+      Kg to Pounds: <h3>{{kilograms * 2.20462 | number:2}}</h3>
+</div>
+
+<!-- gram to ounce box -->
+<div class="w3-container w3-blue conversion-box">
+  <h3><u>Ounces to Grams</u></h3>
+    <span class="highlight">{{ ounceequation }}</span>
+<br>
+<br>
+      Ounces: <input type="text" ng-model="ounces"><br>
+<br>
+      Ounces to Grams: <h3>{{ounces * 28.3495 | number:2}}</h3>
+<hr>
+  <h3><u>Grams to Ounces</u></h3>
+    <span class="highlight">{{ gramequation }}</span>
+<br>
+<br>
+      Grams: <input type="text" ng-model="grams"><br><br>
+      Grams to Ounces: <h3>{{grams * 0.035274 | number:2}}</h3>
+</div>
