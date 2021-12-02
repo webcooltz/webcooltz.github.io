@@ -104,3 +104,11 @@ nav ul a:hover {
 .module-list li {
     padding-bottom: 0.5em;
 }
+
+.store-link {
+    transition: 0.3s;
+}
+
+.store-link:hover {
+    opacity: 0.5;
+}
