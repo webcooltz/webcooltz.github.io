@@ -5,6 +5,8 @@ body {
 
 header {
     text-align: center;
+    align-items: center;
+    align-content: center;
 }
 
 main {
@@ -111,4 +113,8 @@ nav ul a:hover {
 
 .store-link:hover {
     opacity: 0.5;
+}
+
+.header-flex {
+    display: flex;
 }
