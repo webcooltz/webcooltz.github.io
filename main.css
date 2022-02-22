@@ -1,120 +1,29 @@
-body {
-    padding: 1em;
-    text-align: center;
-}
-
-header {
-    text-align: center;
-    align-items: center;
-    align-content: center;
-}
-
-main {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-}
-
-main div{
-    padding: 0.5em;
-}
-
-/* nav {
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
     
-} */
-
-nav ul {
-    display: flex;
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
 }
 
-nav ul li {
-    padding: 0.5em;
-    list-style-type: none;
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
 }
 
-nav ul li a {
-    text-decoration: none;
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
 }
 
-nav ul a {
-    color: #0052CC;
-}
-
-nav ul a:hover {
-    color: black;
-}
-
-/* a:active {
-    color: black;
-} */
-
-/* nav ul a:visited {
-    color: #0052CC;
-} */
-
-/* a {
-    color: white;
-} */
-
-/* --------------------------- colors --------------------- */
-
-.bg-jira-blue {
-    background-color: #0052CC;
-}
-
-.bg-jira-dark-blue {
-    background-color: #172B4D;
-}
-
-.bg-jira-orange {
-    background-color: #FF5630;
-}
-
-.bg-jira-yellow {
-    background-color: #FFAB00;
-}
-
-.bg-jira-green {
-    background-color: #36B37E;
-}
-
-.bg-jira-teal {
-    background-color: #00B8D9;
-}
-
-.bg-jira-purple {
-    background-color: #6554C0;
-}
-
-.about-img {
-    width: 30%;
-    height: 30%;
-}
-
-.module-title {
-    text-align: center;
-}
-
-.module-list {
-    text-align: center;
-    list-style-type: none;
-    font-size: 1.5em;
-}
-
-.module-list li {
-    padding-bottom: 0.5em;
-}
-
-.store-link {
-    transition: 0.3s;
-}
-
-.store-link:hover {
-    opacity: 0.5;
-}
-
-.header-flex {
-    display: flex;
+.skill-img {
+    width: 10%;
+    height: 10%;
 }
