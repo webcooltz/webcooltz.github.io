@@ -7,9 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "name": "Open index.html",
+            "file": "d:\\projects-coding\\html-css\\tucker-tyler.github.io\\scripts\\coffee-house\\index.html"
         }
     ]
 }

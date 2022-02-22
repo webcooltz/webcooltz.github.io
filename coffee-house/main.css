@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+  
+}
+
+   /* Remove the navbar's default margin-bottom and rounded borders */ 
+   .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #6f4e37;
+    
+  }
+
+  .navbar a {
+    color: white;
+  }
+
+  .navbar a:hover {
+      color: #6f4e37;
+  }
+
+  footer {
+    background-color: #6f4e37;
+    padding: 25px;
+    color: white;
+  }
+
+  footer a {
+      color: white;
+  }
+
+.app-img {
+    width: 50%;
+    height: 40%;
+}
+
+.top-bg {
+    background-image: url(https://t4.ftcdn.net/jpg/01/35/34/59/360_F_135345906_DBaCFikNHgOMH7owi8wcuRXN0phu2xs6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shadow-text {
+    text-shadow: 2px 2px #ffffff;
+}
+
+.page-img {
+    width: 100%;
+    height: 100%;
+}
