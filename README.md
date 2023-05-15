@@ -7,4 +7,3 @@ Portfolio for webcooltz, software developer
 * Angular
 * Node/Express
 * Python
-* MongoDB
